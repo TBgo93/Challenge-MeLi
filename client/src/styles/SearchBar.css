@@ -1,0 +1,50 @@
+.nav-header{
+  width: 100%;
+  height: 56px;
+  background-color: #ffe600;
+  display: flex;
+  justify-content: center;
+}
+.nav{
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 36px;
+}
+.nav-logo{
+  background-image: url("../../public/assets/Logo_ML.png");
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 39px;
+}
+.nav-search{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-search-input,
+.nav-search-input:focus{
+  border: 0 rgba(0,0,0,.2);
+  padding: 9px 60px 9px 15px;
+  outline: none;
+}
+.nav-search-input{
+  border-radius: 2px;
+  background-color: #fff;
+  font-size: 16px;
+  height: 39px;
+  width: 100%;
+}
+.nav-search-btn{
+  background-image: url("../../public/assets/ic_Search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  height: 39px;
+  width: 46px;
+  border: none;
+}

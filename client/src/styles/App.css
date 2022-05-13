@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: #eeeeee;
+  font-family: -apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,sans-serif;
+}

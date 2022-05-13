@@ -1,0 +1,22 @@
+.results-categories {
+  display: flex;
+  list-style-type: none;
+  max-width: 1200px;
+  width: 100%;
+  margin: 16px 0;
+}
+.results-categories > li {
+  font-size: 14px;
+  line-height: 16px;
+  color: #999;
+}
+.results-categories > li:after {
+  content: ">";
+  margin: 0 10px;
+}
+.results-categories > li:last-child {
+  color: #666;
+}
+.results-categories > li:last-child:after {
+  content: "";
+}
